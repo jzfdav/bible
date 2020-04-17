@@ -10,11 +10,11 @@
 
 #books-div a {
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding: 0.5rem;
-  margin: 0.5rem;
+  margin: 0.2rem;
   background: #303030;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   opacity: 0.5;
   color: #fff;
   text-align: center;
