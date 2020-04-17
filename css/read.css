@@ -1,0 +1,108 @@
+@import "navbar.css";
+
+body {
+  /* background-color: #fff;  */
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+#sideNavBar {
+  position: fixed;
+  left: -14em;
+  top: 0;
+  bottom: 0;
+  background-color: #665848;
+  border-right: 50px solid black;
+  box-shadow: 4px 0 5px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  cursor: pointer;
+  overflow-y: auto;
+}
+
+.icon {
+  right: 0;
+  display: block;
+  font-size: 30pt;
+  color: #fff;
+  position: absolute;
+  text-decoration: none;
+  font-family: "Carrois Gothic", sans-serif;
+}
+
+#sideNavBar ul {
+  width: 14em;
+  list-style-type: none;
+  margin: 0;
+  padding: 1em;
+}
+
+#sideNavBar ul li {
+  width: 100%;
+  text-align: left;
+  padding: 4px 4px;
+  margin-top: 5px;
+  color: #fff;
+  background: transparent;
+  font-size: 20px;
+  float: left;
+}
+
+#sideNavBar a:link,
+#sideNavBar a:visited {
+  display: block;
+  width: 100%;
+  font-weight: bold;
+  line-height: 2.5em;
+  text-indent: 10px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 4px;
+  outline: 0 none;
+}
+
+#sideNavBar a:hover,
+#sideNavBar a:focus {
+  color: #fff;
+  text-shadow: 0 0 4px #fff;
+}
+
+#article,
+#article:after,
+#sideNavBar,
+#sideNavBar * {
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+#sideNavBar:hover {
+  left: 0;
+}
+
+#sideNavBar:hover ~ #article:after {
+  left: 60%;
+}
+
+#article {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+#article h1,
+#article p {
+  color: #576978;
+  list-style-type: none;
+  font-family: "freight-text-pro", Georgia, Cambria, "Times New Roman", Times,
+    serif;
+  line-height: 2;
+  color: #677a82;
+}
+
+p {
+  text-align: left;
+}
+
+a {
+  color: #677a82;
+  opacity: 1;
+}
