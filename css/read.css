@@ -1,7 +1,6 @@
 @import "navbar.css";
 
 body {
-  /* background-color: #fff;  */
   width: 100%;
   margin: 0;
   padding: 0;
@@ -105,4 +104,8 @@ p {
 a {
   color: #677a82;
   opacity: 1;
+}
+
+.header-grid {
+  grid-template-columns: 1fr 1fr;
 }
